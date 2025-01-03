@@ -1,6 +1,6 @@
 # FIRM SENTIMENT PROJECT 
 ## This project uses Selenium to crawl titles from articles about firm on CafeF.com and PhoBERT to give out sentiment prediction
-***To use run project, please install pytorch, selenium and clone this respitory beforehand: https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis***
+***To use run project, please install Pytorch, Pandas, Selenium and clone this respitory beforehand: https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis***
 
 # CODE PREVIEW: 
 ```
