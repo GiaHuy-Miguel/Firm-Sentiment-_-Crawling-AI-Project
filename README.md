@@ -1,6 +1,6 @@
 # FIRM SENTIMENT PROJECT 
 ## This project uses Selenium to crawl titles from articles about firm on CafeF.com and PhoBERT to give out sentiment prediction
-*** To use run project, please install pytorch, selenium and clone this respitory beforehand: https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis ***
+***To use run project, please install pytorch, selenium and clone this respitory beforehand: https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis***
 
 # CODE PREVIEW: 
 ```
@@ -85,5 +85,6 @@ driver.quit()
 ```
 
 # CREDIT: 
-[mr4/phobert-base-vi-sentiment-analysis](https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis) (Dang Viet Dung, 2023). 
+[mr4/phobert-base-vi-sentiment-analysis](https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis) (Dang Viet Dung, 2023) 
+
 [PhoBERT: Pre-trained language models for Vietnamese](https://aclanthology.org/2020.findings-emnlp.92/) (Nguyen & Tuan Nguyen, Findings 2020)
