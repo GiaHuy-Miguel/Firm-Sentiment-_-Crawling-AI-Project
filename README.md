@@ -3,8 +3,7 @@
 ***To use run project, please install Pytorch, Pandas, Selenium and clone this respitory beforehand: https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis***
 
 # CODE PREVIEW: 
-```python
-// code for coloring
+```python // code for coloring
 import time
 import pandas as pd
 from model import Model
