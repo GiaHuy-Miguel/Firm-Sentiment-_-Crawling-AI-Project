@@ -1,5 +1,5 @@
 # CREATING FIRM SENTIMENT INDEX FROM NEWS ARTICLES' TITLE WITH SELENIUM AND PHOBERT 
-## *** IN ORDER TO RUN THIS PROJECT, PLEASE INSTALL SELENIUM, PANDAS, AS WELL AS OTHER USED LIBRARIES AND CLONE THIS RESPRITORY: https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis (DANG VIET DUNG, 2023)***
+## *** IN ORDER TO RUN THIS PROJECT, PLEASE INSTALL SELENIUM, PANDAS, AS WELL AS OTHER USED LIBRARIES AND CLONE [THIS RESPRITORY](https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis) (DANG VIET DUNG, 2023)***
 # MECHANISM: 
 This project uses selenium to crawl articles from CafeF.com - a well known newspaper that delivers information specifically related to firms and stock market. After that, crawled articles ared fed nto an AI Model (PhoBERT) in order to retrieve its sentiment.
 # CODE PREVIEW: 
@@ -90,6 +90,7 @@ However, I reccomend to use the veriosn 2 (the lastest version) due to higher st
 
 # CREDIT: 
 [mr4/phobert-base-vi-sentiment-analysis](https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis) (Dang Viet Dung, 2023)
+
 [PhoBERT: Pre-trained language models for Vietnamese](https://aclanthology.org/2020.findings-emnlp.92/) (Nguyen & Tuan Nguyen, Findings 2020)
 
 # CONTACT: 
