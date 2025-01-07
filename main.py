@@ -37,32 +37,29 @@ driver = webdriver.Chrome(options=chrome_options)
 for company in list_companies:
     #print(company)
     driver.get(f"https://cafef.vn/du-lieu/tin-doanh-nghiep/{company}/event.chn")
-    
     #Điều kiện vòng while Lấy trong 
     while True: 
         try: 
             # Lấy list các element chứa title
-            articles_src = wait(driver, 1000, By.XPATH, '//*[@id="divEvents"]')
+            articles_src = wait(driver, 9999, By.XPATH, '//*[@id="divEvents"]')
             articles = articles_src.find_elements(By.TAG_NAME, "li")
         
-            if not articles:  # No more articles then break
-                    break
+            if len(articles) == 0: 
+                break
             # Duyệt qua từng element trong list và lấy title + timestamp
             for article in articles:
-
                 # Lấy time_stamp
-                time_stamp = wait(article, 1000, By.TAG_NAME, "span").text
+                time_stamp = wait(article, 9999, By.TAG_NAME, "span").text
                 year = int(time_stamp[6:10])
                 
                 # Lấy trong khoảng thời gian cần lấy 
                 if year < YEAR:
                     break  # Stop processing if year is before threshold
 
-                if year != 2024: #skip year 2024
+                if year < 2024: #skip year 2024
                 # Lấy title báo
                     title = article.find_element(By.TAG_NAME, "a").get_attribute("title")
                     arr = [time_stamp, company, title]
-                    
                     # chạy model
                     model = Model("mr4/phobert-base-vi-sentiment-analysis",arr)
                     result= model.load_model()
