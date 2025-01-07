@@ -93,7 +93,6 @@ However, I reccomend to use the veriosn 2 (the lastest version) due to higher st
 
 [PhoBERT: Pre-trained language models for Vietnamese](https://aclanthology.org/2020.findings-emnlp.92/) (Nguyen & Tuan Nguyen, Findings 2020)
 
-# CONTACT: 
-## FURTHER INQUIRY AND SUPPORT PLEASE CONTACT: giahuynguyentruong2004@gmail.com 
+### FURTHER INQUIRY AND SUPPORT PLEASE CONTACT: giahuynguyentruong2004@gmail.com 
 
 # THANK YOU!
